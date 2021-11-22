@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+  http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
+
+    <preConditions>
+        <dbms type="postgresql"/>
+    </preConditions>
+
+<!--    <changeSet id="1" author="Xurshid">-->
+<!--        <tagDatabase tag="create_table_student"/>-->
+<!--    </changeSet>-->
+
+<!--        <include file="db/changelog/create_table/create_table_student_10.xml"/>-->
+
+<!--    <changeSet id="3" author="Xurshid">-->
+<!--        <tagDatabase tag="create_table_tutor"/>-->
+<!--    </changeSet>-->
+
+<!--        <include file="db/changelog/create_table/create_table_tutor_30.xml"/>-->
+
+<!--    <changeSet id="5" author="Xurshid">-->
+<!--        <tagDatabase tag="create_table_region"/>-->
+<!--    </changeSet>-->
+
+<!--    <include file="db/changelog/create_table/create_table_region_40.xml"/>-->
+
+<!--    <changeSet id="7" author="Xurshid">-->
+<!--        <tagDatabase tag="create_table_district"/>-->
+<!--    </changeSet>-->
+
+<!--    <include file="db/changelog/create_table/create_table_district_20.xml"/>-->
+
+<!--    <changeSet id="9" author="Xurshid">-->
+<!--        <tagDatabase tag="create_table_address"/>-->
+<!--    </changeSet>-->
+
+<!--    <include file="db/changelog/create_table/create_table_address_21.xml"/>-->
+
+<!--    <changeSet id="11" author="Xurshid">-->
+<!--        <tagDatabase tag="create_table_nationality"/>-->
+<!--    </changeSet>-->
+
+<!--    <include file="db/changelog/create_table/create_table_nationality_50.xml"/>-->
+
+<!--    <changeSet id="13" author="Xurshid">-->
+<!--        <tagDatabase tag="create_table_education"/>-->
+<!--    </changeSet>-->
+<!--    <include file="db/changelog/create_table/create_table_education_60.xml"/>-->
+
+<!--    <changeSet id="15" author="Xurshid">-->
+<!--        <tagDatabase tag="create_table_relatives"/>-->
+<!--    </changeSet>-->
+
+<!--    <include file="db/changelog/create_table/create_table_relatives_70.xml"/>-->
+
+<!--    <changeSet id="17" author="Xurshid">-->
+<!--        <tagDatabase tag="create_table_relatives_type"/>-->
+<!--    </changeSet>-->
+
+<!--    <include file="db/changelog/create_table/create_table_relatives_type_71.xml"/>-->
+
+<!--    <changeSet id="19" author="Xurshid">-->
+<!--        <tagDatabase tag="create_table_family_status"/>-->
+<!--    </changeSet>-->
+
+<!--    <include file="db/changelog/create_table/create_table_family_status_80.xml"/>-->
+
+<!--    <changeSet id="21" author="Xurshid">-->
+<!--        <tagDatabase tag="create_table_lost_breadwinner"/>-->
+<!--    </changeSet>-->
+<!--    <include file="db/changelog/create_table/create_table_lost_breadwinner_81.xml"/>-->
+
+<!--    <changeSet id="23" author="Xurshid">-->
+<!--        <tagDatabase tag="create_table_family_condition"/>-->
+<!--    </changeSet>-->
+
+<!--    <include file="db/changelog/create_table/create_table_family_condition_82.xml"/>-->
+
+<!--    <changeSet id="25" author="Xurshid">-->
+<!--        <tagDatabase tag="create_table_benefit"/>-->
+<!--    </changeSet>-->
+
+<!--    <include file="db/changelog/create_table/create_table_benefit_83.xml"/>-->
+
+<!--    <changeSet id="27" author="Xurshid">-->
+<!--            <tagDatabase tag="create_table_attachment"/>-->
+<!--    </changeSet>-->
+
+<!--    <include file="db/changelog/create_table/create_table_attachment_90.xml"/>-->
+
+<!--        <changeSet id="29" author="Xurshid">-->
+<!--                <tagDatabase tag="create_table_attachment_content"/>-->
+<!--        </changeSet>-->
+<!--        <include file="db/changelog/create_table/create_table_attachment_content_91.xml"/>-->
+
+<!--    <changeSet id="33" author="Xurshid">-->
+<!--        <tagDatabase tag="create_table_gender"/>-->
+<!--    </changeSet>-->
+<!--    <include file="db/changelog/create_table/create_table_gender_100.xml"/>-->
+
+<!--    <changeSet id="35" author="Xurshid">-->
+<!--        <tagDatabase tag="create_table_creative_potential"/>-->
+<!--    </changeSet>-->
+<!--<include file="db/changelog/create_table/create_table_creative_potential_110.xml"/>-->
+
+<!--    <changeSet id="37" author="Xurshid">-->
+<!--        <tagDatabase tag="create_table_categories"/>-->
+<!--    </changeSet>-->
+<!--    <include file="db/changelog/create_table/create_table_category_111.xml"/>-->
+
+<!--    <changeSet id="39" author="Xurshid">-->
+<!--        <tagDatabase tag="create_table_direction"/>-->
+<!--    </changeSet>-->
+
+<!--    <include file="db/changelog/create_table/create_table_direction_120.xml"/>-->
+
+<!--    <changeSet id="41" author="Xurshid">-->
+<!--        <tagDatabase tag="create_table_faculty"/>-->
+<!--    </changeSet>-->
+<!--    <include file="db/changelog/create_table/create_table_faculty_121.xml"/>-->
+
+    <changeSet id="43" author="Xurshid">
+        <tagDatabase tag="create_table_university"/>
+    </changeSet>
+    <include file="db/changelog/create_table/create_table_university_122.xml"/>
+
+</databaseChangeLog>

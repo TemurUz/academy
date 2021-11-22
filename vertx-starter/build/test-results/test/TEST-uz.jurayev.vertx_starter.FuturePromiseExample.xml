@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="uz.jurayev.vertx_starter.FuturePromiseExample" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-03T06:39:10" hostname="LENOVO" time="1.042">
+  <properties/>
+  <testcase name="future_composition(Vertx, VertxTestContext)" classname="uz.jurayev.vertx_starter.FuturePromiseExample" time="1.042"/>
+  <system-out><![CDATA[?[34m11:39:11.199?[m [vert.x-eventloop-thread-0] ?[35mDEBUG?[m uz.jurayev.vertx_starter.FuturePromiseExample - success
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -6,3 +6,7 @@ spring:
     driver-class-name: org.postgresql.Driver
   liquibase:
     change-log: classpath:/db/changelog/db.changelog-master.xml
+
+  jpa:
+    hibernate:
+      ddl-auto: none

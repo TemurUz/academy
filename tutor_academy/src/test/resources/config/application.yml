@@ -13,22 +13,12 @@
 # http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
 # ===================================================================
 
-eureka:
-  client:
-    enabled: false
-  instance:
-    appname: tutor
-    instanceId: tutor:${spring.application.instance-id:${random.value}}
-
 spring:
   profiles:
     # Uncomment the following line to enable tests against production database type rather than H2, using Testcontainers
     #active: testcontainers
   application:
     name: tutor
-  cloud:
-    config:
-      enabled: false
   jackson:
     serialization:
       write-durations-as-timestamps: false
@@ -87,7 +77,7 @@ jhipster:
     authentication:
       jwt:
         # This token must be encoded using Base64 (you can type `echo 'secret-key'|base64` on your command line)
-        base64-secret: YjlkNTA3MTcwYzNmYTg4NTdmNDMyNGUxNWM0ZTE3NmY0M2QzODRjZTNjYTc4ZmRhY2I1OGI2MWYxOWU4MGE4NTNjMjkyOWE5OGY1MDBlMGQ5MWM3ZDFjMjc2NTRiYjU5OTRmNzBlZjg0ZjI3MDMxODhjYTc3YzJmZTI2MTE4MWQ=
+        base64-secret: NTljNWM0MWM0ODA0M2Y1NmQ2N2U2ZGI0ZmJkZjBiNzNlM2M1OTExMzViYWY0MWY1ZDMxODQ3YzNkMTcwNTI1NWU1ZTBjZWJjMWE0MDA4MTViOTlmZTg4ZTI4YWU3MjlkNjBiNWQ0NjgyNWQ1OTM3M2NhZTZmYzNlYjY3OTRmMWY=
         # Token is valid 24 hours
         token-validity-in-seconds: 86400
 # ===================================================================
